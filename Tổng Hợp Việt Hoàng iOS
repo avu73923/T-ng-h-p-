@@ -1,6 +1,6 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+local OrionLib = loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/T-ng-h-p-/refs/heads/main/Tổng%20Hợp%20Việt%20Hoàng%20iOS"))()
 
-local Window = OrionLib:MakeWindow({Name = "Tổng Hợp Việt Hoàmg iOS", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+local Window = OrionLib:MakeWindow({Name = "Tổng Hợp Việt Hoàng iOS", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
 	Name = "Scripts",
