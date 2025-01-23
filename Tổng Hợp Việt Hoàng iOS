@@ -1,9 +1,6 @@
-local Library = --[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+local OrionLib = loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/Zzz/refs/heads/main/Zzz"))()
 
-local Window = Library:MakeWindow({Name = "Tổng Hợp Việt Hoàng iOS", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+local Window = OrionLib:MakeWindow({Name = "Tổng Hợp Việt Hoàng iOS", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
 local Tab = Window:MakeTab({
 	Name = "Scripts",
