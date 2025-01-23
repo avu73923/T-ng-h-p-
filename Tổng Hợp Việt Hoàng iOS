@@ -1,4 +1,4 @@
-local OrionLib = loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/Zzz/refs/heads/main/Ú"))()
+local OrionLib = loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/Zzz/refs/heads/main/Zzz"))()
 
 local Window = OrionLib:MakeWindow({Name = "Tổng Hợp Việt Hoàng iOS", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
